@@ -1,0 +1,54 @@
+.skillsContainer {
+    /* ..existing styles */
+
+    grid-template-areas:    "header header header"
+                            "main main sidebar"
+                            "footer footer footer";
+}}
+
+
+
+.item-1{
+    grid-area: header;
+}
+
+footer{
+    grid-area: footer;
+}
+
+section{
+    grid-area: main;
+}
+
+nav {
+    height: 66px;
+    background: #051923;
+    scroll-behavior: smooth;
+    position: sticky;
+
+
+}
+
+nav ul {
+    display: flex;
+    height: 66px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+
+
+
+nav a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #B8B8B8;
+}

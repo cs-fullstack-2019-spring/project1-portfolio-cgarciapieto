@@ -27,3 +27,14 @@ http://www.adhamdannaway.com/about
  -pages fade in and out
 
 
+------------------------------------------------------------------------------------------------------------------------
+2019-02-12
+
+
+tday I created a main HTML page and some css pages to test functionality.
+The main thing I worked was getting my navbar setup.
+tonight i plan on mastering grid systems
+These Images below are located in the images folder they are my layouts and plans.
+images/simple_layout_plan.JPG
+
+images/about_me_layout.JPG
