@@ -1,3 +1,4 @@
+
 body {
     padding-top: 20px;
     background: #f5f7f8;
@@ -32,7 +33,7 @@ body {
     position: sticky;
 }
 .item-2 {
-    background: #88ff7c;
+    background: #e9e9ff;
     grid-column: 1 /4;
     grid-row: 2;
     font-size: 24px;
@@ -40,58 +41,82 @@ body {
 
 }
 .item-3 {
-    background: #f5fffa;
-    grid-column: 1 / 4;
+    grid-column: 1/4;
     grid-row: 3;
-    font-size: 15px;
-    text-decoration-color: #373737;
-    text-align: justify;
+    text-align: center;
+    padding-top: ;
+
 }
 .item-4 {
     background: #f5fffa;
-    grid-column: 1/4;
-    grid-row: 6;
+    grid-column: 2;
+    grid-row: 4;
     text-align: center;
+
 
 }
 .item-5 {
     background: #f5fffa;
-    grid-column: 1/4;
-    grid-row: 4
+    grid-column: 3;
+    grid-row: 4;
+    text-align: center;
+
 
 }
 .item-6 {
     background: #f5fffa;
-    grid-column: 2/4;
+    grid-column: 1;
     grid-row: 4;
+
 }
 .item-7 {
     background: #f5fffa;
-    grid-column: 3/4;
-    grid-row:4;
+    grid-column: 2;
+    grid-row: 5;
+
 }
 .item-8 {
     background: #f5fffa;
+    grid-column: 3;
+    grid-row: 5;
 }
 .item-9 {
     background: #f5fffa;
+    grid-column: 1;
+    grid-row: 5;
 }
 
 
-#navBar1 ul {
+
+nav {
+    height: 100%;
+    background: #051923;
+    scroll-behavior: smooth;
+    position: sticky;
+
+
+}
+
+nav ul {
     display: flex;
+
     justify-content: space-around;
     align-items: center;
     padding: 0;
     margin: 0 auto;
-    list-style-type: none;}
+    list-style-type: none;
+}
 
-#navBar1 a {
+
+
+nav a {
     display: block;
     color: white;
     font-size: 15px;
     font-weight: lighter;
     text-decoration: none;
 }
-#navBar1 a:hover {
-    color: #B8B8B8;}
+
+nav a:hover {
+    color: #e24542;
+}
