@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="../css/education.css">
+    <link rel="stylesheet" href="../contact.css">
+
 </head>
 <body>
 <section class="grid-1">
@@ -28,8 +29,25 @@
     <div class="item-3"><p> Email: cgarciapieto@gmail.com</p></div>
     <div class="item-4"><a href ="https://www.facebook.com/"><img src="../images/83-facebook-128.png" height="128"
                                                                   width="128"/></a></div>
-    <div class="item-5"></div>
-    <div class="item-6"></div>
+    <div class="item-5"> <form method="post" action="send_mail.php">
+        <p>
+            <label>First Name
+                <input type="text" name="first_name" required>
+            </label>
+        </p>
+        <p>
+            <label>Email
+                <input type="email" name="email_address">
+            </label>
+        </p>
+        <p>
+            <label>Comments
+                <textarea name="comments" maxlength="500"></textarea>
+            </label>
+        </p>
+        <p><button>Submit the form</button></p>
+    </form></div>
+    <div class="item-6"><img src="../images/Carlos .JPG" height="4032" width="3024"/></div>
     <div class="item-7"></div>
     <div class="item-8"></div>
     <div class="item-9"></div>
