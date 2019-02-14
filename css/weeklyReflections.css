@@ -3,6 +3,7 @@ body {
     padding-top: 20px;
     background: #f5f7f8;
     width: 100%;
+    border-radius: 25px;
 }
 
 .grid-1 {
@@ -40,6 +41,7 @@ body {
     grid-row: 2;
     font-size: 24px;
     text-align: center;
+
 
 }
 .item-3 {
@@ -91,10 +93,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #B8B8B8;
+    color: #e24542;
 }
 
 
 #journal{
-
+text-align: left;
+    grid-column: 1;
 }

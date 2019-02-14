@@ -57,18 +57,19 @@ body {
 }
 .item-5 {
     background: #f5fffa;
-    grid-column: 1/4;
-    grid-row: 4
+    grid-column: 1;
+    grid-row: 4;
+    height:100%;
 
 }
 .item-6 {
     background: #f5fffa;
-    grid-column: 2/4;
+    grid-column: 2;
     grid-row: 4;
 }
 .item-7 {
     background: #f5fffa;
-    grid-column: 3/4;
+    grid-column: 3;
     grid-row:4;
 }
 .item-8 {
@@ -114,7 +115,6 @@ nav a:hover {
     text-decoration-color: #e24542;
 }
 
-#redHover
-{
-    text-decoration-color: #e24542;
+#grayScale2{
+    filter: grayscale(80%);
 }
