@@ -110,5 +110,11 @@ nav a {
 }
 
 nav a:hover {
-    color: #B8B8B8;
+    color: #e24542;
+    text-decoration-color: #e24542;
+}
+
+#redHover
+{
+    text-decoration-color: #e24542;
 }

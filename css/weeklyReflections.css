@@ -2,6 +2,7 @@
 body {
     padding-top: 20px;
     background: #f5f7f8;
+    width: 100%;
 }
 
 .grid-1 {
@@ -20,6 +21,7 @@ body {
     /*font-size: 20px;*/
     padding: 10px;
     font-family: sans-serif;
+    width: 100%;
 }
 
 /* specific item styles */
@@ -41,51 +43,26 @@ body {
 
 }
 .item-3 {
-    grid-column: 1/4;
+    background: #f5fffa;
+    grid-column: 1 / 4;
     grid-row: 3;
-    position: center;
+    font-size: 15px;
+    text-decoration-color: #373737;
+    text-align: justify;
 }
 .item-4 {
     background: #f5fffa;
-    grid-column: 2;
-    grid-row: 4;
-
-
-}
-.item-5 {
-    background: #f5fffa;
-    grid-column: 3;
-    grid-row: 4;
-
+    grid-column: 1/4;
+    grid-row: 6;
+    text-align: center;
 
 }
-.item-6 {
-    background: #f5fffa;
-    grid-column: 1;
-    grid-row: 4;
 
-}
-.item-7 {
-    background: #f5fffa;
-    grid-column: 2;
-    grid-row: 5;
-
-}
-.item-8 {
-    background: #f5fffa;
-    grid-column: 3;
-    grid-row: 5;
-}
-.item-9 {
-    background: #f5fffa;
-    grid-column: 1;
-    grid-row: 5;
-}
 
 
 
 nav {
-    height: 100%;
+    height: 100%;;
     background: #051923;
     scroll-behavior: smooth;
     position: sticky;
@@ -95,7 +72,7 @@ nav {
 
 nav ul {
     display: flex;
-
+    height: 100%;
     justify-content: space-around;
     align-items: center;
     padding: 0;
@@ -114,5 +91,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #e24542;
+    color: #B8B8B8;
+}
+
+
+#journal{
+
 }
