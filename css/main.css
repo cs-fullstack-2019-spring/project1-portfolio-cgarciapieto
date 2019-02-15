@@ -60,7 +60,7 @@ body {
     background: #f5fffa;
     grid-column: 1;
     grid-row: 4;
-    height:100%;
+
 
 }
 .item-6 {
@@ -68,22 +68,11 @@ body {
     grid-column: 2;
     grid-row: 4;
 }
-.item-7 {
-    background: #f5fffa;
-    grid-column: 3;
-    grid-row:4;
-}
-.item-8 {
-    background: #f5fffa;
-}
-.item-9 {
-    background: #f5fffa;
-}
 
 
 
 nav {
-    height: 100%;;
+    height: 100%;
     background: #051923;
     scroll-behavior: smooth;
     position: sticky;

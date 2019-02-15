@@ -68,11 +68,10 @@ body {
 
 .item-6
 {
-    grid-column: 3/4;
-    grid-row: 5;
-    text-align: left;
+    grid-column: 1/4;
+    grid-row: 6;
+    text-align: center;
     font-family: sans-serif;
-    text-decoration-color: #e24542;
 }
 
 

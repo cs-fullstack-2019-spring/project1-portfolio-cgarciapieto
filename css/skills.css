@@ -52,6 +52,7 @@ body {
     grid-row: 4;
 
 
+
 }
 .item-5 {
     background: #f5fffa;
@@ -115,7 +116,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #e24542;
+    color: #00dbe2;
 }
 
 .overlay {
@@ -151,4 +152,12 @@ footer{
     grid-column: 2/4;
     grid-row: 6;
     filter: contrast(2%);
+}
+
+.item-10 {
+    background: #f5fffa;
+    grid-column: 1/4;
+    grid-row: 6;
+    text-align: center;
+
 }
