@@ -4,6 +4,7 @@ body {
     background: #f5f7f8;
     width: 100%;
     border-radius: 25px;
+    filter: grayscale(75%);
 }
 
 .grid-1 {
@@ -50,12 +51,13 @@ body {
     grid-row: 3;
     font-size: 15px;
     text-decoration-color: #373737;
-    text-align: justify;
+    text-align: center;
 }
 .item-4 {
     background: #f5fffa;
     grid-column: 1/4;
-    grid-row: 6;
+    grid-row: 4;
+    font-size: 15px;
     text-align: center;
 
 }
@@ -93,11 +95,14 @@ nav a {
 }
 
 nav a:hover {
-    color: #e24542;
+    color: #00dbe2;
 }
 
 
 #journal{
 text-align: left;
     grid-column: 1;
+}
+#journal{
+    filter: grayscale(100%);
 }

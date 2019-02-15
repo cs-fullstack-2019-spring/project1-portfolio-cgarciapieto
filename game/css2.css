@@ -3,6 +3,7 @@ table {
     background: url("tree.jpeg") no-repeat;
     table-layout: fixed;
     background-position: 100px;
+
 }
 
 /* Set each td size */

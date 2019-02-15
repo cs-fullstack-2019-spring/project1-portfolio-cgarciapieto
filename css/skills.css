@@ -2,6 +2,7 @@
 body {
     padding-top: 20px;
     background: #f5f7f8;
+    filter: grayscale(75%);
 }
 
 .grid-1 {
@@ -144,4 +145,10 @@ nav a:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+footer{
+    grid-column: 2/4;
+    grid-row: 6;
+    filter: contrast(2%);
 }

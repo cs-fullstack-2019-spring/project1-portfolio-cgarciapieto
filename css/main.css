@@ -2,6 +2,7 @@
 body {
     padding-top: 20px;
     background: #f5f7f8;
+    filter: grayscale(75%);
 }
 
 .grid-1 {
@@ -111,10 +112,10 @@ nav a {
 }
 
 nav a:hover {
-    color: #e24542;
-    text-decoration-color: #e24542;
+    color: #00dbe2;
+
 }
 
 #grayScale2{
-    filter: grayscale(80%);
+    filter: grayscale(40%);
 }
