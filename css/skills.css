@@ -23,7 +23,7 @@ body {
     font-family: sans-serif;
 }
 
-/* specific item styles */
+/* */
 
 .item-1 {
     grid-column: 1 / 4;
@@ -132,27 +132,14 @@ nav a:hover {
     background-color: #008CBA;
 }
 
-.container:hover .overlay {
-    opacity: 1;
-}
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 footer{
     grid-column: 2/4;
     grid-row: 6;
     filter: contrast(2%);
 }
+
+/*footer ;location*/
 
 .item-10 {
     background: #f5fffa;
