@@ -12,6 +12,7 @@ body {
     max-width: 750px;
     margin: 0 auto;
     grid-template-columns: repeat(3, 1fr);
+
     grid-gap: 20px;
 }
 
@@ -74,7 +75,7 @@ body {
 
 nav {
     height: 100%;
-    background: #051923;
+    background: #e24542;
     scroll-behavior: smooth;
     position: sticky;
 
@@ -95,7 +96,7 @@ nav ul {
 
 nav a {
     display: block;
-    color: white;
+    color: #051923;
     font-size: 15px;
     font-weight: lighter;
     text-decoration: none;

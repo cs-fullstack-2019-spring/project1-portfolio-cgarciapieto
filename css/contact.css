@@ -64,6 +64,7 @@ body {
     font-family: sans-serif;
     text-decoration-color: #e24542;
     position: relative;
+    border: solid red;
 }
 
 .item-6
@@ -110,4 +111,10 @@ nav a:hover {
 
 #grayScale{
     filter: grayscale(100%);
+}
+
+iframe{
+    border-image: none;
+    overflow-y: hidden;
+
 }
