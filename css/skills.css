@@ -28,7 +28,7 @@ body {
 .item-1 {
     grid-column: 1 / 4;
     grid-row: 1;
-    background: rgba(39, 95, 255, 0.82);
+    background: rgba(20, 29, 59, 0.82);
     justify-content: space-around;
 
 }
@@ -67,6 +67,7 @@ body {
     grid-column: 1;
     grid-row: 4;
 
+
 }
 .item-7 {
     background: #f89820;
@@ -78,6 +79,7 @@ body {
     background: rgba(223, 28, 24, 0.86);
     grid-column: 3;
     grid-row: 5;
+
 }
 .item-9 {
     background: rgba(25, 205, 20, 0.52);
@@ -157,7 +159,7 @@ p{
 
 li{
     text-align: right;
-    text-decoration-color: #008CBA;
+
 }
 
 
@@ -178,4 +180,8 @@ li{
     text-decoration: solid;
     font-family: 'Cinzel', serif;
 
+}
+
+img{
+    object-position: center;
 }

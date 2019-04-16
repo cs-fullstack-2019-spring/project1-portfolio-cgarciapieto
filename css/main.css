@@ -32,7 +32,7 @@ body {
 .item-1 {
     grid-column: 1 / 4;
     grid-row: 1;
-    background: rgba(39, 95, 255, 0.83);
+    background: rgba(20, 29, 59, 0.83);
     justify-content: space-around;
 
 }
@@ -71,7 +71,7 @@ body {
 
 }
 .item-6 {
-    background: rgba(36, 76, 190, 0.55);
+    background: rgba(25, 205, 20, 0.55);
     grid-column: 2/4;
     grid-row: 4/4;
     font-family: 'Cinzel', serif;
