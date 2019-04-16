@@ -126,3 +126,10 @@ p{
     text-align: center;
     font-size: medium;
 }
+
+.grow:hover
+{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}

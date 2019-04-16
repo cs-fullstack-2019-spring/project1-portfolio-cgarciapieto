@@ -17,7 +17,7 @@ body {
 /* items */
 
 .grid-1 div {
-    color: #1e1f24;
+    color: #60a1ed;
     /*font-size: 20px;*/
     padding: 10px;
     font-family: sans-serif;
@@ -28,7 +28,7 @@ body {
 .item-1 {
     grid-column: 1 / 4;
     grid-row: 1;
-    background: #051923;
+    background: #279bff;
     text-blink: white;
     scroll-behavior: smooth;
     position: sticky;

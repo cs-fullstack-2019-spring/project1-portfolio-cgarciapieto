@@ -4,41 +4,78 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+
+
 </head>
 <body>
 <!--This is where i set up the navbar, I made an unordered list within the container grid-1
 entire navbar is in div class item-1-->
 <section class="grid-1">
-
-    <div class="item-1"> <nav>
-        <div id =navBar1 >
-            <ul>
-                <li id = "redHover"><a href="index.html">Home</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="education.html">Education</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="weeklyreflections.html">Weekly Reflections</a></li>
-                <li><a href="resume.html">Resume</a></li>
+    <div class="item-1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Carlos's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="education.html">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="weeklyreflections.html">Reflections</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="projects.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="https://github.com/cs-fullstack-fall-2018/javascript-project-cards-carlos-jordan">JavaScript Card game</a>
+                        <a class="dropdown-item" href="weeklyreflections.html">Reflections</a>
+                        <a class="dropdown-item" href="education.html">education</a>
+                    </div>
+                </li>
             </ul>
         </div>
-    </nav></div>
-    <!--main content-->
-    <div class="item-2"> <header>
-        <h1>Carlos Garcia
-        </h1>
-    </header></div>
-    <!--MAIN CONTENT-->
-    <div class="item-4"><footer>Site Created By Carlos G-Pieto</footer></div>
-    <div class="item-5"><img src="../images/stormtrooper.png" height="300" width="225"/></div>
-    <div class="item-6"><p> Carlos is currently a beginner programmer and is attending CodeCrew School of Programming in
-        Memphis, Tennessee. He has lived in the city of  Memphis for 5 years but is originally from Monterey,
-        California.  His passion for technology and how it can help improve lives of everyday people is what drives him
-        to learn the world of computer programming. Carlos spends his free time with family and playing Pokemon Go!</p>
+    </nav>
     </div>
+    <!--main content-->
+    <div class="item-2">
+        <header id="name"><h1>Carlos Garcia</h1></header>
+    </div>
+
+
+    <!--MAIN CONTENT-->
+
+    <div class="item-5"><img src="../images/stormtrooper.png" height="300" width="225"/></div>
+    <div class="item-6"><p> I'm Carlos, I am currently a junior programmer and  attending CodeCrew School of Programming in
+        Memphis, Tennessee. I have lived in the city of  Memphis for 5 years but I'm originally from Monterey,
+        California.  My passion for technology and how it can help improve lives of everyday people is what drives me
+        to learn the world of computer programming. i mostly spend my free time with family and playing Pokemon Go!</p>
+    </div>
+    <div class="item-4"><footer>site created by Carlos Garcia</footer></div>
     <!--<div class="item-7"><img id ="grayScale2" src="../images/jelly.png" height="300" width="225"/></div>-->
 </section>
 
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
