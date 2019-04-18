@@ -85,3 +85,10 @@ body {
     font-family: 'Cinzel', serif;
 
 }
+
+.item-10 {
+    grid-column: 1/4;
+    grid-row: 3;
+    position: center;
+    text-align: center;
+}

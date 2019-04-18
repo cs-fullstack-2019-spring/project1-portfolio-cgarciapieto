@@ -4,7 +4,7 @@ body {
     background: #f5f7f8;
     width: 100%;
     border-radius: 25px;
-    filter: grayscale(75%);
+
 }
 
 .grid-1 {
@@ -31,10 +31,9 @@ body {
 .item-1 {
     grid-column: 1 / 4;
     grid-row: 1;
-    background: #051923;
-    text-blink: white;
-    scroll-behavior: smooth;
-    position: sticky;
+    background: rgba(20, 29, 59, 0.83);
+    justify-content: space-around;
+
 }
 .item-2 {
     background: #e9e9ff;
@@ -110,9 +109,7 @@ nav a:hover {
 text-align: left;
     grid-column: 1;
 }
-#journal{
-    filter: grayscale(100%);
-}
+
 
 iframe{
 
